@@ -2,12 +2,6 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
 
-@font-face {
-  font-family: Georgia;
-  src: url(./fonts/georgia-italic.ttf);
-  font-weight: normal;
-  font-style: italic; }
-
 .header {
   height: 780px;
   background: url(../images/background.png);
@@ -203,14 +197,16 @@ h1 {
   .about__decoration {
     margin: 30px 0 0; }
   .about__text {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
     font-size: 20px;
     line-height: 25px;
     color: #707070;
     margin-bottom: 30px; }
   .about__stars {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 20px;
+    font-style: italic;
     line-height: 25px;
     color: #707070;
     margin: 30px 0; }
@@ -600,7 +596,8 @@ svg circle {
     font-size: 50px;
     line-height: 70px; }
   .team__text {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
     font-size: 20px;
     line-height: 25px;
     color: #707070;
@@ -610,8 +607,9 @@ svg circle {
   .team__decoration {
     margin: 30px 0; }
   .team__stars {
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 20px;
+    font-style: italic;
     line-height: 25px;
     color: #707070;
     margin: 30px 0;
