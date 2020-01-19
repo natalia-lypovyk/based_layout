@@ -4,7 +4,7 @@ h1 {
 
 @font-face {
   font-family: Georgia;
-  src: url(/fonts/georgia-italic.ttf);
+  src: url(./fonts/georgia-italic.ttf);
   font-weight: normal;
   font-style: italic; }
 
