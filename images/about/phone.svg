@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="32" viewBox="0 0 18 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c3e50;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Phone" class="cls-1" d="M619,1367a1,1,0,0,1,1,1v26a1,1,0,0,1-1,1H606.994a1,1,0,0,1-1-1v-26a1,1,0,0,1,1-1H619m0-2H606.994a3,3,0,0,0-3,3v26a3,3,0,0,0,3,3H619a3,3,0,0,0,3-3v-26a3,3,0,0,0-3-3h0Zm-8,27a2,2,0,1,0,2-2A1.992,1.992,0,0,0,611.005,1392Zm0-24h4a1,1,0,0,1,0,2h-4A1,1,0,0,1,611,1368Z" transform="translate(-604 -1365)"/>
+</svg>
