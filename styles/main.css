@@ -92,7 +92,9 @@ h1 {
   font-size: 15px;
   line-height: 65px;
   text-transform: uppercase;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s; }
   .navigation__link:hover {
     color: #fff; }
   .navigation__link:focus {
@@ -295,6 +297,10 @@ h1 {
     font-size: 16px; }
   .feature__text {
     font-size: 14px; } }
+
+@media screen and (max-width: 555px) {
+  .about__item:not(:last-child) {
+    margin-right: 0; } }
 
 .portfolio {
   padding: 72px 0; }
@@ -499,17 +505,14 @@ svg circle {
 
 @media screen and (max-width: 1020px) {
   .skills__branches {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; } }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .branches__item:not(:last-child) {
+    margin-right: 0; } }
 
 @media screen and (max-width: 800px) {
   .branch-rate__value {
     font-size: 44px; } }
-
-@media screen and (max-width: 771px) {
-  .branches__item:last-child {
-    margin-right: 30px; } }
 
 .subscribe {
   padding: 50px 0 60px;
@@ -650,6 +653,13 @@ svg circle {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
+
+@media screen and (max-width: 819px) {
+  .team__employees {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .person:not(:last-child) {
+    margin-right: 0; } }
 
 .footer {
   padding: 31px 0;
