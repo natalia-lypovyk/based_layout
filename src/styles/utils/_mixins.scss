@@ -4,3 +4,60 @@
     #{$_property}: $_toValue;
   }
 }
+
+@mixin wrapper {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin heading {
+  color: $cinnabar;
+  font-size: $heading-l;
+  line-height: 70px;
+}
+
+@mixin italic {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: $fs-s;
+  line-height: 25px;
+  color: $dim-gray;
+  margin-bottom: 30px;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@mixin stars {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: $fs-s;
+  font-style: italic;
+  line-height: 25px;
+  color: $dim-gray;
+  margin: 30px 0;
+}
+
+@mixin button {
+  background-color: $cinnabar;
+  border-radius: 5px;
+  border: none;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color $a-short;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $harley-davidson-orange;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(97, 13, 13, 0.75);
+  }
+}

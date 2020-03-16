@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 130%;
+}
+
+@media screen and (max-width:1020px) {
+  .decoration {
+    width: 90%;
+  }
+}
+
+.heading {
+  @media screen and (max-width: 1020px) {
+    font-size: $heading-m;
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: $heading-s;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: $heading-xs;
+  }
+}

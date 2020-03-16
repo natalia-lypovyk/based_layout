@@ -2,12 +2,438 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Based</title>
+    <link rel="shortcut icon" href="./images/iconn.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <img src="./images/logo.svg" alt="Logo">
-    <h1>Hello Mate academy</h1>
+    <header class="header">
+      <div class="menu menu--closed">
+        <div class="burger">
+          <div class="burger__item burger__item_top"></div>
+          <div class="burger__item burger__item_middle"></div>
+          <div class="burger__item burger__item_bottom"></div>
+        </div>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#about" class="menu__link">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="#skills" class="menu__link">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a href="#portfolio" class="menu__link">Portfolio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#team" class="menu__link">Our team</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">Contact</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">Sign up</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="header__navigation navigation">
+        <div class="navigation__wrapper">
+          <a href="#" class="header__logo"></a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link">About</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills" class="navigation__link">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#portfolio" class="navigation__link">Portfolio</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#team" class="navigation__link">Our team</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#contact" class="navigation__link">Contact</a>
+            </li>
+          </ul>
+          <a href="#contact" class="header__button">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="about" id="about">
+        <div class="about__wrapper">
+          <h2 class="about__heading heading">About us</h2>
+          <img
+            src="./images/about/seprater.png"
+            alt="Decorative element"
+            class="about__decoration decoration"
+          >
+          <h3 class="about__subheading">Who We Are</h3>
+          <p class="about__text">
+            Legard Studio is a web development company based in London, UK.
+            We provide web design and web development services.
+          </p>
+          <span class="about__stars stars">*****</span>
+          <h3 class="about__subheading">What We Do</h3>
+          <ul class="about__list">
+            <li class="about__item feature">
+              <img
+                src="./images/about/responsive.png"
+                alt="responsive design on all devices"
+                class="feature__picture"
+              >
+              <h4 class="feature__title">Responsive design</h4>
+              <p class="feature__text">
+                We make simple and intuiive interfaces
+                to provide the best user experience.
+              </p>
+            </li>
+            <li class="about__item feature">
+              <img
+                src="./images/about/development.png"
+                alt="Development"
+                class="feature__picture"
+              >
+              <h4 class="feature__title">Web development</h4>
+              <p class="feature__text">
+                We create beautiful websites and innovative
+                web and mobile applications.
+              </p>
+            </li>
+            <li class="about__item feature">
+              <img
+                src="./images/about/marketing.png"
+                alt="Marketing"
+                class="feature__picture"
+              >
+              <h4 class="feature__title">Marketing</h4>
+              <p class="feature__text">
+                Constant consumer engagement, tracking through
+                social media platforms.
+              </p>
+            </li>
+          </ul>
+          <a href="#portfolio" class="about__button">More about us</a>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills__wrapper">
+          <h2 class="skills__heading heading">Our skills</h2>
+          <img
+            src="./images/skills/seprater.png"
+            alt="decoration element"
+            class="skills__decoration decoration"
+          >
+          <ul class="skills__branches branches">
+            <li class="branches__item">
+              <div class="branch-rate">
+                <svg>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                </svg>
+                <p class="branch-rate__value">97%</p>
+              </div>
+              <p class="branch__name">Photoshop</p>
+            </li>
+            <li class="branches__item">
+              <div class="branch-rate">
+                <svg>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                </svg>
+                <p class="branch-rate__value">99%</p>
+              </div>
+              <p class="branch__name">HTML5 & CSS3</p>
+            </li>
+            <li class="branches__item">
+              <div class="branch-rate">
+                <svg>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                </svg>
+                <p class="branch-rate__value">93%</p>
+              </div>
+              <p class="branch__name">JavaScript &frasl; JQuery</p>
+            </li>
+            <li class="branches__item">
+              <div class="branch-rate">
+                <svg >
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                  <circle cx="100" cy="100" r="90" class="circle"></circle>
+                </svg>
+                <p class="branch-rate__value">89%</p>
+              </div>
+              <p class="branch__name">PHP</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__wrapper">
+          <h2 class="portfolio__heading heading">Portfolio</h2>
+          <img
+            src="./images/about/seprater.png"
+            alt="Decorative element"
+            class="portfolio__decoration decoration"
+          >
+          <ul class="portfolio__tags tags">
+            <li class="tags__item">
+              <a href="#" class="tags__link tags__link--active">All</a>
+            </li>
+            <li class="tags__item">
+              <a href="#" class="tags__link">Applications</a>
+            </li>
+            <li class="tags__item">
+              <a href="#" class="tags__link">Illustrations</a>
+            </li>
+            <li class="tags__item">
+              <a href="#" class="tags__link">Logo</a>
+            </li>
+            <li class="tags__item">
+              <a href="#" class="tags__link">Photo</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="gallery">
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/art.png"
+              alt="Art"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/funny-monster.png"
+              alt="Funny monster"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/ufo.png"
+              alt="UFO picture"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/pinky.png"
+              alt="Pink things"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/signature.png"
+              alt="Creative signature"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/donut.png"
+              alt="Donut"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/accessories.png"
+              alt="Accesories"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/rates.png"
+              alt="Rates"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/sports.png"
+              alt="Sport activities"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/volume.png"
+              alt="Volume button"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/design.png"
+              alt="Design"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/morning.png"
+              alt="Good morning"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/art.png"
+              alt="Art"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/funny-monster.png"
+              alt="Funny monster one more time"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+          <li class="gallery__item item">
+            <img
+              src="./images/portfolio/ufo.png"
+              alt="and UFO one more time"
+              class="gallery__photo"
+            >
+            <div class="layer"></div>
+          </li>
+        </ul>
+      </section>
+      <section class="subscribe" id="contact">
+        <div class="subscribe__wrapper">
+          <h2 class="subscribe__heading">
+            Get our newsletter and be the first to know&excl;
+          </h2>
+          <p class="subscribe__text">
+            You&apos;ll get an email about once a month.
+            We&apos;ll never share your address.
+          </p>
+          <form action="#" method="POST" class="subscribe__form form">
+            <input type="email" placeholder="Enter Your Email" class="form__input">
+            <button type="submit" class="form__button">
+              <a href="#" class="form__button_link">Subscribe</a>
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="team__wrapper">
+          <h2 class="team__heading heading">Our Team</h2>
+          <img
+            src="./images/about/seprater.png"
+            alt="Decorative element"
+            class="team__decoration decoration"
+          >
+          <p class="team__text">
+            Our entire global community &mdash; including our staff,
+            board, and advisors &mdash; are integral to the success
+            of our team.
+          </p>
+          <div class="team__stars">*****</div>
+          <ul class="team__employees employees">
+            <li class="employees__person person">
+              <img
+                  src="./images/team/user-1.png"
+                  alt="Gerald Jacobs, Team Leader"
+                  class="person__photo"
+                >
+              <h4 class="person__name">Gerald Jacobs</h4>
+              <p class="person__post">Team Leader</p>
+            </li>
+            <li class="employees__person person">
+              <img
+                src="./images/team/user-2.png"
+                alt="Arnold Marshall, Web Developer"
+                class="person__photo"
+              >
+              <h4 class="person__name">Arnold Marshall</h4>
+              <p class="person__post">Web Developer</p>
+            </li>
+            <li class="employees__person person">
+              <img
+                src="./images/team/user-3.png"
+                alt="Hailey Cunningham, Designer"
+                class="person__photo"
+              >
+              <h4 class="person__name">Hailey Cunningham</h4>
+              <p class="person__post">Designer</p>
+            </li>
+            <li class="employees__person person">
+              <img
+                src="./images/team/user-4.png"
+                alt="Vincent Jenkins, IOS Developer"
+                class="person__photo"
+              >
+              <h4 class="person__name">Vincent Jenkins</h4>
+              <p class="person__post">IOS Developer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <p class="footer__info">
+          &copy; 2014, Based by Agileinfoways
+        </p>
+        <div class="footer__socials socials">
+          <a href="#" class="socials__link">
+            <img
+              src="./images/footer/twitter.svg"
+              alt="Follow us on Twitter"
+              class="socials__icon"
+            >
+          </a>
+          <a href="#" class="socials__link">
+            <img
+              src="./images/footer/facebook.svg"
+              alt="Follow us on Facebook"
+              class="socials__icon"
+            >
+          </a>
+          <a href="#" class="socials__link">
+            <img
+              src="./images/footer/pinterest.svg"
+              alt="Visit us on Pinterest"
+              class="socials__icon"
+            >
+          </a>
+          <a href="#" class="socials__link">
+            <img
+              src="./images/footer/google-plus.svg"
+              alt="Visit us on Google Plus"
+              class="socials__icon"
+            >
+          </a>
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

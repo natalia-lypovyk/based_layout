@@ -1,0 +1,18 @@
+<svg id="graph" xmlns="http://www.w3.org/2000/svg" width="195" height="195" viewBox="0 0 195 195">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e74c3c;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 50px;
+        fill: #fff;
+        font-family: "Open Sans";
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M758,2095.5a97.5,97.5,0,1,0,97.5-97.5A97.611,97.611,0,0,0,758,2095.5Zm7.8,0a89.7,89.7,0,1,1,89.7,89.7A89.8,89.8,0,0,1,765.8,2095.5ZM837,1992h15v41h-8Zm15,6a4,4,0,1,1-4,4A4,4,0,0,1,852,1998Zm-14,2a4,4,0,1,1-4,4A4,4,0,0,1,838,2000Z" transform="translate(-758 -1998)"/>
+  <text id="_99_" data-name="99%" class="cls-2" x="48.001" y="116.002">99%</text>
+</svg>

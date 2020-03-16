@@ -1,0 +1,133 @@
+.about {
+  padding: 70px 0;
+
+  &__wrapper {
+    @include wrapper;
+    text-align: center;
+  }
+
+  &__heading {
+    @include heading;
+  }
+
+  &__subheading {
+    font-weight: 300;
+    font-size: $fs-m;
+    color: $madison;
+    margin-bottom: 16px;
+    margin-top: 30px;
+  }
+
+  &__subheading:last-of-type {
+    margin-bottom: 70px;
+  }
+
+  &__decoration {
+    margin: 30px 0 0;
+  }
+
+  &__text {
+    @include italic;
+  }
+
+  &__stars {
+    @include stars;
+  }
+
+  &__list {
+    @include flex;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__button {
+    @include button;
+    display: block;
+    width: 220px;
+    height: 45px;
+    margin: 0 auto;
+    font-size: $btn-fs;
+    line-height: 45px;
+  }
+}
+
+.feature {
+  flex-basis: 250px;
+  list-style: none;
+  text-align: center;
+
+  &__title {
+    font-weight: 600;
+    font-size: $fs-s;
+    color: $dim-gray;
+    margin: 20px 0 15px;
+  }
+
+  &__text {
+    font-size: $fs-xs;
+    line-height: 20px;
+    color: $dim-gray;
+  }
+
+  &__picture {
+    transition: transform $a-short;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about__list {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    padding: 50px 0;
+
+    &__subheading {
+      font-size: $fs-mm;
+    }
+
+    &__subheading:last-of-type {
+      margin-bottom: 40px;
+    }
+
+    &__text {
+      font-size: $fs-xss;
+    }
+
+    &__stars {
+      font-size: $fs-xss;
+    }
+
+    &__list {
+      margin-bottom: 0;
+    }
+  }
+
+  .feature__title {
+    font-size: $fs-xss;
+  }
+
+  .feature__text {
+    font-size: $fs-xxs;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .about__item:not(:last-child) {
+    margin-right: 0;
+  }
+}
